@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+  <meta charset="UTF-8">\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+  <title>Sberbank-Style Crypto Converter</title>\
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />\
+  <style>\
+    /* \uc0\u1042 \u1072 \u1096  CSS-\u1082 \u1086 \u1076  \u1080 \u1079  \u1087 \u1088 \u1077 \u1076 \u1099 \u1076 \u1091 \u1097 \u1077 \u1075 \u1086  \u1086 \u1090 \u1074 \u1077 \u1090 \u1072  */\
+  </style>\
+</head>\
+<body>\
+  <div class="converter">\
+    <h2>Crypto Converter</h2>\
+    <input type="number" id="amount" placeholder="Enter amount" oninput="convert()">\
+    <select id="fromCurrency" class="currency-select"></select>\
+    <button class="swap-button" onclick="swapCurrencies()">\
+      <div class="arrows"></div>\
+    </button>\
+    <select id="toCurrency" class="currency-select"></select>\
+    <div class="loading" id="loading" style="display: none;">Loading...</div>\
+    <div class="result" id="result"></div>\
+  </div>\
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>\
+  <script>\
+    /* \uc0\u1042 \u1072 \u1096  JavaScript-\u1082 \u1086 \u1076  \u1080 \u1079  \u1087 \u1088 \u1077 \u1076 \u1099 \u1076 \u1091 \u1097 \u1077 \u1075 \u1086  \u1086 \u1090 \u1074 \u1077 \u1090 \u1072  */\
+  </script>\
+</body>\
+</html>\
+}
